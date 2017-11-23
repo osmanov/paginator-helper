@@ -1,0 +1,15 @@
+{
+  "name": "paginator-helper",
+  "version": "1.0.0",
+  "description": "A simple utility for creating paginator",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "author": "Renat Osmanov",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/osmanov/paginator-helper.git"
+  }
+}

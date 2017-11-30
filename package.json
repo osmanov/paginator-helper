@@ -11,5 +11,8 @@
   "repository": {
     "type": "git",
     "url": "https://github.com/osmanov/paginator-helper.git"
+  },
+  "devDependencies": {
+    "jest": "^21.2.1"
   }
 }

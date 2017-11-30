@@ -6,6 +6,13 @@
   "scripts": {
     "test": "jest"
   },
+  "keywords": [
+    "util",
+    "utility",
+    "paginator",
+    "pagination",
+    "helper"
+  ],
   "author": "Renat Osmanov",
   "license": "MIT",
   "repository": {

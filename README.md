@@ -37,3 +37,6 @@ helper.pageIndex(-10); // -1
  ### pageIndex(itemIndex)
  determines what page an item is on.This method will return -1 for `itemIndex` values that are out of range
 
+## License
+
+[MIT](LICENSE). Copyright (c) 2017 Renat Osmanov.

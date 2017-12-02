@@ -9,6 +9,8 @@ The class is designed to take in an array of values and an integer indicating ho
 The constructor takes in an array of items and an integer indicating how many items fit within a single page:
 
 ```js
+const PaginatorHelper=require('paginator-helper');
+
 const helper = new PaginationHelper(['a','b','c','d','e','f'], 4);
 helper.pageCount(); // 2
 helper.itemCount(); // 6

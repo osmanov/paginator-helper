@@ -5,11 +5,23 @@
 PaginationHelper class is a utility class helpful for querying paging information related to an array.
 The class is designed to take in an array of values and an integer indicating how many items will be allowed per each page.
 
+Install with [npm](https://www.npmjs.com/) or [Yarn](https://yarnpkg.com/):
+
+npm:
+```sh
+npm install paginator-helper --save
+```
+
+Yarn:
+```sh
+yarn add paginator-helper
+```
+
 ## Usage
 The constructor takes in an array of items and an integer indicating how many items fit within a single page:
 
 ```js
-const PaginatorHelper=require('paginator-helper');
+const PaginatorHelper = require('paginator-helper');
 
 const helper = new PaginationHelper(['a','b','c','d','e','f'], 4);
 helper.pageCount(); // 2
